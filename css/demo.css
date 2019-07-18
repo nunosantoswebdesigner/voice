@@ -116,7 +116,7 @@
   content: "\e907";
 }
 .ns-icon-about {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 /* mixinis */
 .transition-back {
@@ -278,6 +278,7 @@ a:hover {
   }
   .container > header > span {
     text-indent: 30px;
+    font-size: 10px;
   }
   .info {
     display: none;
@@ -288,7 +289,9 @@ a:hover {
 }
 @media screen and (max-width: 615px) {
   #output-value {
-    font-size: 8vw;
-    top: 250px !important;
+    font-size: 16px;
+  }
+  .ns-main-title {
+    font-size: 16px;
   }
 }
